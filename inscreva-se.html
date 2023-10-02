@@ -35,7 +35,24 @@
     <main>
 
         <div class="formularioContainer">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSceFmUOb_K5SMZR8xQjxAUq3Itml-2OpXRqMi57o-tlFtNvlg/viewform?embedded=true" width="640" height="1023" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" placeholder="Digite seu nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder="Digite seu e-mail" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="number" name="telefone" placeholder="Digite seu telefone" required>
+
+                <label for="endereco">Cidade e Estado</label>
+                <input type="text" name="endereco" placeholder="Digite sua cidade e estado" required>
+
+                <label for="comentarios">Comentários</label>
+                <textarea name="comentarios" id="comentarios" placeholder="Algum comentário?" cols="30" rows="10"></textarea>
+
+                <input type="button" value="Enviar">
+            </form>
         </div>
 
     </main>
