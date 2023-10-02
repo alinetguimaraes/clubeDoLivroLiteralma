@@ -1,0 +1,147 @@
+:root{
+    --primary-color:#be4c41;
+    --secondary-color:#fce5cd;
+}
+
+.cabecalho{
+    height: 70vh;
+    position: relative;
+    width: 100%;
+
+}
+
+/* Para deixar a imagem esmaecida (opacity) */
+.cabecalho::before{
+    content: "";
+    background-image:url(../imagens/pexels-rfstudio-3060324.jpg);
+    background-color: var(--secondary-color);
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    opacity: 0.7;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    
+}
+
+h1 {
+    position: absolute;
+    font-size: 3.5em;
+    line-height: 1em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    opacity: 0.7;
+    margin-top: 1.2em;
+    
+  }
+
+  .containerNav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+  }
+
+
+  .logo-literalma{
+    position: relative;
+    width: 3em;
+    height: 3em;
+    padding: 1.5em;
+  }
+
+  .fa-bars{
+    position: relative;
+    display: block;
+    padding: 1.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: var(--primary-color);
+  }
+
+  .header_nav{
+    display: none;
+  }
+
+  .header_nav ul{
+    position: relative;
+    list-style-type: none;
+    margin-right: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: end;
+    
+}
+
+.header_nav a{
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+
+
+
+/* Telas maiores */
+
+@media screen and (min-width: 57em) {
+
+    /* Maior que 912px */
+
+    .logo-literalma{
+        margin-left: 2em;
+        width: 3em;
+        height: 3em;
+    }
+
+    .header_nav{
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: end;
+        margin-top: 1em;
+    }
+    
+    .header_nav ul{
+        font-size: 1.3em;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .header_nav li{
+        display: inline-block;
+    }
+
+    .header_nav a{  
+        padding: 1.5em;
+        
+    }
+
+    .header_nav a:hover{
+        opacity: 0.8;
+        text-decoration-line: underline;
+        text-decoration-style: dashed;
+        text-decoration-color: var(--primary-color);
+    }
+
+    /* Esconde menu hambúrguer em telas maiores */
+
+
+    #hamburguer{
+        display: none;
+    }
+
+    h1{
+        position: initial;
+        font-size: 5em;
+        margin-top: 3em;
+        opacity: 0.95;
+    }
+
+}

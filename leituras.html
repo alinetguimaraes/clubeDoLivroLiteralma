@@ -5,29 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clube do Livro Literalma</title>
     <link rel="shortcut icon" href="imagens/Logo-Clube-do-Livro-Literalma-Circular.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/7d79481767.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belgrano&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
 </head>
 <body>
     <header class="cabecalho">
     <div class="containerNav">
 
-        <img src="imagens/Logo-Clube-do-Livro-Literalma-Circular.png" alt="Clube do Livro Literalma">
-        <h3>Clube do Livro Literalma</h3>
+        <img src="imagens/Logo-Clube-do-Livro-Literalma-Circular.png" alt="Clube do Livro Literalma" class="logo-literalma">
+        
 
-        <nav>
-            <a href="index.html">Página inicial</a>
-                
-            <a href="leituras.html">Leituras</a>
-                
-            <a href="encontro-bienal.html">Encontro Bienal</a>
-                
-            <a href="inscreva-se.html">Inscreva-se</a>
-        </nav>
+        <i id="hamburguer" class="fa-solid fa-bars" onclick="clickMenu()"></i>
     </div>
+        <div>
+            <nav id="menu" class="header_nav">
+                <ul>
+                    <li><a href="index.html">Página inicial</a></li>
+                    
+                    <li><a href="leituras.html">Leituras</a></li>
+                
+                    <li><a href="encontro-bienal.html">Encontro Bienal</a></li>
+                
+                    <li><a href="inscreva-se.html">Inscreva-se</a></li>
+                </ul>
+            </nav>
+        </div>
 
     <div class="tituloCabecalho">
-        <h1>Leituras</h1>
-        
+        <h1>Clube do Livro Literalma</h1>
     </div>
 
     </header>
