@@ -1,7 +1,11 @@
 :root{
+    /* cores principais dos backgrounds */
     --primary-color:#be4c41;
-    --secondary-color:#fce5cd;
+    --secondary-color:#eee8e7;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* Hero */
 
 .cabecalho{
     height: 70vh;
@@ -38,6 +42,9 @@ h1 {
     margin-top: 1.2em;
     
   }
+
+
+  /* Menu */
 
   .containerNav{
     display: flex;
@@ -98,8 +105,11 @@ h1 {
         height: 3em;
     }
 
+    /* Menu */
+
     .header_nav{
         position: absolute;
+        /* Position absolute para ficar na mesma altura da logo */
         top: 0;
         right: 0;
         display: flex;
@@ -144,4 +154,169 @@ h1 {
         opacity: 0.95;
     }
 
+}
+
+/* Área dos cards */
+
+.redContainer{
+    background-color: var(--primary-color);
+}
+
+
+.cardsh2{
+    margin: 0;
+    /* margin zero para evitar espaçamento entre header e main */
+    padding: 3em 1em;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+/* Display flex no container do button para centralizar */
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+/* Configurações do botão */
+.button{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 0.5em 8em;
+    border-radius: 0.3em;
+}
+
+section h3{
+    color: white;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1.5em;
+}
+
+/* Container dos cards */
+
+.cardInicial{
+    display: flex;
+    flex-direction: column;
+    /* direction column para os itens ficarem abaixo */
+    align-items: center;
+}
+
+section h4{
+    color: white;
+    font-weight: 300;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+article p{
+    color: white;
+    font-size: small;
+    padding-bottom: 3em;
+}
+
+/* ajustes dos tamanhos das imagens dos cards*/
+
+article img{
+    width: 90%;
+    height: auto;
+}
+
+/* Section encontros online + vídeo */
+
+.lightContainer{
+    background-color: var(--secondary-color);
+}
+
+.videoh2{
+    margin: 0;
+    /* margin 0 para tirar espaçamento entre as sections */
+    padding: 3em 1em;
+    text-align: center;
+    color: black;
+    opacity: 0.7;
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+/* configurações da imagem encontros online*/
+
+/* display flex para centralizar */
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure img{
+    width: 90vw;
+    height: auto;
+}
+
+figcaption{
+    margin-top: 1.5em;
+    font-size: small;
+    text-align: center;
+}
+
+/* ajustes do vídeo */
+
+/* display flex para centralizar */
+.videoContainer{
+    display: flex;
+    justify-content: center;
+}
+
+/* dimensões do vídeo */
+iframe{
+    width: 90%;
+    height: 30vh;
+}
+
+.videoParagrafo{
+    padding: 3em 1em;
+    text-align: center;
+    opacity: 0.7;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    /* margin bottom 0 para evitar distância abaixo */
+}
+
+/* section esperamos por você */
+
+.esperamosh2{
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 1.5em 1em;
+    color: white;
+    font-weight: 200;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+/* ajustes da imagem esperamos */
+
+.esperamosImgContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.esperamosImg{
+    width: 90vw;
+    height: auto;
+    padding: 2em;
+}
+
+/* configurações do footer */
+
+footer{
+    background-color: var(--primary-color);
+    padding: 2em;
+    text-align: center;
+    color: white;
+    font-size: small;
 }

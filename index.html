@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aline Guimaraes">
+
     <title>Clube do Livro Literalma</title>
     <link rel="shortcut icon" href="imagens/Logo-Clube-do-Livro-Literalma-Circular.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
@@ -15,14 +17,18 @@
     <script src="index.js"></script>
 </head>
 <body>
+
+    <!-- Hero -->
     <header class="cabecalho">
     <div class="containerNav">
-
+        <!-- Logo -->
         <img src="imagens/Logo-Clube-do-Livro-Literalma-Circular.png" alt="Clube do Livro Literalma" class="logo-literalma">
         
-
+        <!-- Menu hambúrguer -->
         <i id="hamburguer" class="fa-solid fa-bars" onclick="clickMenu()"></i>
     </div>
+
+        <!-- Conteúdo menu -->
         
         <div class="menuContainer">
         
@@ -48,47 +54,63 @@
 
     <main> 
 
+        <!-- Cards -->
+        <section class="redContainer">
+        
+            <h2 class="cardsh2">Um clube para compartilhar a literatura com outras almas apaixonadas por livros</h2>
+            
+            <!-- div para centralizar o botão -->
+            <div class="buttonContainer">
+                <a class="button" href="inscreva-se.html">Inscreva-se</a>
+            </div>
+            
 
-        <section>
-            <h2>Um clube para compartilhar a literatura com outras almas apaixonadas por livros</h2>
-            <a class="button" href="inscreva-se.html">Inscreva-se</a>
             <h3>Conheça nossas temporadas até aqui</h3>
 
+            <h4>Ficção Científica</h4>
             <article class="cardInicial">
-                <h4>Ficção Científica</h4>
                 <img src="imagens/james-tarbotton-gm18kqu9TxQ-unsplash.jpg" alt="Pessoa segurando um Kindle">
                 <p>Temporada 1</p>
             </article>
 
+            <h4>Literatura Contemporânea</h4>
             <article class="cardInicial">
-                <h4>Literatura Contemporânea</h4>
                 <img src="imagens/pexels-lil-artsy-3563625.jpg" alt="Pessoa segurando um livro com café ao lado">
                 <p>Temporada 2</p>
             </article>
 
+            <h4>Clássicos</h4>
             <article class="cardInicial">
-                <h4>Clássicos</h4>
                 <img src="imagens/pexels-aline-viana-prado-2465877.jpg" alt="Pessoa segurando um livro com óculos escuro ao lado">
                 <p>Temporada 3</p>
             </article>
         </section>
 
-        <section>
-            <h2>Encontros online quinzenais para debater o livro do mês</h2>
+        <!-- Section encontros online + vídeo -->
+        <section class="lightContainer" >
+            <h2 class="videoh2">Encontros online quinzenais para debater o livro do mês</h2>
 
             <figure>
                 <img src="imagens/pexels-ekaterina-bolovtsova-4049992.jpg" alt="Mulher sorrindo em frente ao notebook">
                 <figcaption>Compartilhe suas ideias e impressões sobre a leitura atual com uma comunidade de leitores</figcaption>
             </figure>
 
-            <h2>Os benefícios da leitura</h2>
+            <h2 class="videoh2">Os benefícios da leitura</h2>
+            <!-- container para ajustes do vídeo -->
+            <div class="videoContainer">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/KW4sZROK5hU?si=OnfRKmzFh3Llgio9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>Dr. Dráuzio Varella comenta os benefícios da leitura para nossas vidas.</p>
+            </div>
+            <p class="videoParagrafo">Dr. Dráuzio Varella comenta os benefícios da leitura para nossas vidas.</p>
         </section>
 
-        <section>
-            <h2>Esperamos por você nessa jornada literária  </h2>
-            <img src="imagens/pexels-thought-catalog-2228561.jpg" alt="Mulher lendo na janela">
+        <!-- Section esperamos por você -->
+        <section class="esperamos" >
+            <h2 class="esperamosh2">Esperamos por você nessa jornada literária  </h2>
+
+            <!-- div para centralizar e colocar background -->
+            <div class="esperamosImgContainer lightContainer">
+                <img class="esperamosImg" src="imagens/pexels-thought-catalog-2228561.jpg" alt="Mulher lendo na janela">
+            </div>
         </section>
 
     </main>
