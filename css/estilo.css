@@ -472,3 +472,35 @@ section{
     }
 
 }
+
+/* Area encontro Bienal */
+
+.encontroSection{
+    background-color: var(--secondary-color);
+}
+
+.encontroh2{
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 1.5em;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.encontroSection p{
+    font-size: 1.3em;
+    margin: 1.5em;
+    font-weight: 300;
+}
+
+.mapaFotos img{
+    width: 80%;
+    height: auto;
+    margin: 2em;
+}
+
+.mapa iframe{
+    margin: 1em;
+}
