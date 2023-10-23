@@ -553,3 +553,46 @@ section{
 
     }
 }
+
+/* Área do formulário */
+
+.formulario{
+    background-color: var(--secondary-color);
+    display: flex;
+}
+
+form{
+    margin: 2em;
+}
+
+label{
+    opacity: 0.7;
+}
+
+fieldset{
+    border: none;
+}
+
+/* display block para ficar abaixo um do outro */
+
+label,
+input,
+textarea{
+    display: block;
+    margin: 0.8em;
+}
+
+input{
+    width: 90%;
+}
+
+/* ajustes do botão */
+
+.btn{
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5%;
+    color: white;
+    padding: 1em 2em;
+    cursor: pointer;
+}
