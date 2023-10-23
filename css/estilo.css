@@ -391,3 +391,45 @@ footer{
         padding: 2em;
     }
 }
+
+/* Página Leituras */
+
+/* ajuste do h2 */
+.leiturash2{
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 1em;
+    font-weight: 300;
+    color: black;
+    opacity: 0.7;
+    text-align: center;
+}
+
+/* seletor do section para background color */
+
+section{
+    background-color: var(--primary-color);
+    padding: 3em 0;
+}
+
+.cardLivros{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1em;
+    border: 2px solid black;
+}
+
+.cardLivros img{
+    width: 100%;
+}
+
+.cardLivros h3{
+    margin: 0;
+    font-weight: 300;
+}
+
+.cardLivros p{
+    text-align: center;
+    font-size: 1em;
+    padding: 0;
+}
