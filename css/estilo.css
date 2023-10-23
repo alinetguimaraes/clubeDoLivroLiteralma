@@ -562,7 +562,7 @@ section{
 }
 
 form{
-    margin: 2em;
+    margin: auto;
 }
 
 label{
@@ -591,8 +591,46 @@ input{
 .btn{
     background-color: var(--primary-color);
     border: none;
-    border-radius: 5%;
     color: white;
     padding: 1em 2em;
     cursor: pointer;
 }
+
+/* Para centralizar o botão */
+
+.buttonFormContainer{
+    display: block;
+    text-align: center;
+}
+
+
+/* Telas maiores - página de inscreva-se */
+
+@media screen and (min-width: 57em) {
+    /* Maior que 912px */
+ 
+    .formulario{
+        justify-content: center;
+    }
+
+    form{
+        width: 50%;
+    }
+
+    label{
+        font-size: 1.5em;
+    }
+
+    .areaDeResposta{
+        width: 100%;
+        height: 3vh;
+    }
+
+    textarea{
+        width: 100%;
+    }
+
+    .btn{
+        padding: 1em 5em;
+    }
+}    

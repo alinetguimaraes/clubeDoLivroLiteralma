@@ -47,21 +47,24 @@
         <section class="formulario">
                 <form>
                     <label for="nome">Nome</label>
-                    <input type="text" name="nome" placeholder="Digite seu nome" required>
+                    <input type="text" name="nome" class="areaDeResposta" placeholder="Digite seu nome" required>
     
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" placeholder="Digite seu e-mail" required>
+                    <input type="email" name="email" class="areaDeResposta" placeholder="Digite seu e-mail" required>
     
                     <label for="telefone">Telefone</label>
-                    <input type="number" name="telefone" placeholder="Digite seu telefone" required>
+                    <input type="number" name="telefone" class="areaDeResposta" placeholder="Digite seu telefone" required>
     
                     <label for="endereco">Cidade e Estado</label>
-                    <input type="text" name="endereco" placeholder="Digite sua cidade e estado" required>
+                    <input type="text" name="endereco" class="areaDeResposta" placeholder="Digite sua cidade e estado" required>
     
                     <label for="comentarios">Comentários</label>
                     <textarea name="comentarios" id="comentarios" placeholder="Algum comentário?" cols="30" rows="10"></textarea>
-    
-                    <input type="button" class="btn" value="Enviar">
+                    
+                    <div class="buttonFormContainer">
+                        <button type="submit" class="btn" value="Enviar">Enviar</button>
+                    </div>
+                   
                 </form>
 
         </section>
