@@ -416,7 +416,6 @@ section{
     width: 80%;
     margin: auto;
     margin-bottom: 1em;
-    border: 2px solid black;
 }
 
 .cardLivros img{
@@ -432,4 +431,44 @@ section{
     text-align: center;
     font-size: 1em;
     padding: 0;
+}
+
+/* Telas maiores - página de leituras */
+
+@media screen and (min-width: 57em) {
+    /* Maior que 912px */
+
+    /* Aumentar h2 */
+    .leiturash2{
+        font-size: 2.3em;
+    }
+
+    /* container flexbox */
+    .leiturasContainer{
+        display: flex;
+        justify-content: center;
+        margin: 2em 10em;
+        flex-wrap: wrap;
+    }
+
+    /* ajuste do article para altura geral */
+
+    .leiturasContainer article{
+        width: 20em;
+        height: 70vh;
+        max-height: 80%;
+    }
+
+    .cardLivros{
+        width: 20%;
+        box-sizing: border-box;
+    }
+
+    /* ajuste do h3 para melhor visualização */
+    .cardLivros h3{
+        margin-top: 1em;
+        padding: 0;
+        font-size: 1.5em;
+    }
+
 }
