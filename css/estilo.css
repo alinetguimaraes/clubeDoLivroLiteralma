@@ -504,3 +504,52 @@ section{
 .mapa iframe{
     margin: 1em;
 }
+
+/* Telas maiores - página de encontro */
+
+@media screen and (min-width: 57em) {
+    /* Maior que 912px */
+
+    .encontroh2{
+        font-size: 2.3em;
+    }
+
+    /* display flex para ficarem lado a lado */
+
+    .endereco{
+        display: flex;
+        margin: 1em 10em;
+    }
+
+    .endereco p{
+        font-size: 1.5em;
+    }
+
+    .mapaContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* display flex para posicionar */
+
+    .mapaFotos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+    }
+
+    .mapaFotos img{
+        width: 60%;
+    }
+
+    /* ajustes de tamanho do mapa */
+    .mapa{
+        width: 60%;
+    }
+    .mapa iframe{
+        width: 80%;
+        height: 70vh;
+
+    }
+}
